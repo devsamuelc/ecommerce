@@ -1,0 +1,20 @@
+[
+  {
+    "email": "test@test.com"
+  },
+  {
+    "email": "lol@test.com",
+    "password": "myboy",
+    "id": "34f02e01"
+  },
+  {
+    "email": "myballs@arebig.com",
+    "password": "bigballs",
+    "id": "6e0806bc"
+  },
+  {
+    "email": "randomemail@this.com",
+    "password": "de8f79370948ae44824e6ac755253b5390b4567d8df20c389ee82bc0bf54052c68193947806bdf26a1b18a999e272e59e49835df6c5b731bfab7169d6556feeb.6a05f1e5297166f5",
+    "id": "a06406e0"
+  }
+]

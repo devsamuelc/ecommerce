@@ -29,18 +29,18 @@ class UsersRepository {
   async create(attrs) {
     attrs.id = this.randomId();
 
-    const salt = crypto.randomBytes(8).toString("hex");
-
+    const salt = crypto.randomBytes(128).toString('base64');
     const buf = await scrypt(attrs.password, salt, 64);
 
     const records = await this.getAll();
     const record = {
       ...attrs,
-      password: `${buf.toString("hex")}.${salt}`,
+      password: `${buf.toString("hex")}.${salt}`
     };
     records.push(record);
 
     await this.writeAll(records);
+    console.log(records);
 
     return record;
   }
@@ -65,18 +65,18 @@ class UsersRepository {
 
   async getOne(id) {
     const records = await this.getAll();
-    return records.find((records) => records.id === id);
+    return records.find(record => record.id === id);
   }
 
   async delete(id) {
     const records = await this.getAll();
-    const filteredRecords = records.filter((record) => record.id !== id);
+    const filteredRecords = records.filter(record => record.id !== id);
     await this.writeAll(filteredRecords);
   }
 
   async update(id, attrs) {
     const records = await this.getAll();
-    const record = records.find((record) => record.id === id);
+    const record = records.find(record => record.id === id);
 
     if (!record) {
       throw new Error(`Record with id ${id} not found`);

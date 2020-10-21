@@ -16,5 +16,35 @@
     "email": "randomemail@this.com",
     "password": "de8f79370948ae44824e6ac755253b5390b4567d8df20c389ee82bc0bf54052c68193947806bdf26a1b18a999e272e59e49835df6c5b731bfab7169d6556feeb.6a05f1e5297166f5",
     "id": "a06406e0"
+  },
+  {
+    "email": "@lol",
+    "password": "0884edf664142f3bfdca5a583065474d72d8a988ebc74ccc8ed0f99586ee799134d0d12e9b66a093eb69c42b5235659c29ea8f85733ca1781981625de1a2dc49.949f12d9042eed3a",
+    "id": "0679033b"
+  },
+  {
+    "email": "email@email.com",
+    "password": "285573e0047cd543a61cd6a6970722ce016e69678126ccdf91e9a64153b0dc1c612f0001d9bfec0e498a55953dbecd86018c4e03aba8c1e5282ead731aaa9fe4.7a9face1e3e275ec",
+    "id": "b2da0f33"
+  },
+  {
+    "email": "email@email.com",
+    "password": "06cfc7742b9abe7e8eebacaa64cfabaad95ce960b409055cb4fcb7c3e310514bc8719e06189622922313466de183080c5e893618b649d13a492ea310e582e84b.455b76f76b779cfc",
+    "id": "f98829b0"
+  },
+  {
+    "email": "email@email.com",
+    "password": "a3ff6e93691ed549a0bcf08585771f0a8fb44484b424ddeede661890ee5b92f79a59a732109a574acc5cf7d1f0592f1506acb93c46fd658e4e8918f976a7c053.48a1b607dfb40077",
+    "id": "84050f15"
+  },
+  {
+    "email": "exampleemail@whatever.com",
+    "password": "3cd95c8c7415e881c0f594c36098b05f0d686937a8a89df1103d2a737353195ce0e9bc542e42dac295bd33600afcc1bb1032801122270a6fe7ba42c38e51f3e1.1717595a8d1e8873",
+    "id": "a2b293d2"
+  },
+  {
+    "email": "anyemail@anyservice.com",
+    "password": "26c6eee59ff1f588227752f6754803e13bb37b46718515d4265e03593e809a284ac535f93ea10c9399a6f633bedee7d7032eeccc91c2e5a15c34063eb517681c.BZMY51AuLpbWrvTchHE4xX7rN4xZNAqQitmcpvzZNro5nmEktM//NZg4jx7Dil05ZgiIHr+k7Kz0WeNXKYOezFkP25/5uS7Gz0UtgZ5Se8p0VOqYSXK5wckOAZYXMtrZ0Ex5nJ/pp+KfcmCtJyCnEit7IYJlchpM+gHBrWifbMI=",
+    "id": "e9744ed6"
   }
 ]
